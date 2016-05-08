@@ -11,69 +11,41 @@ namespace Utils.Security
     public class AssymetricCryptService
     {
         RSACryptoServiceProvider _provider = new RSACryptoServiceProvider();
+        UnicodeEncoding _encoding = new UnicodeEncoding();
 
         public string Encrypt(string value)
         {
-            UnicodeEncoding encoding = new UnicodeEncoding();
-            byte[] data = encoding.GetBytes(value);
+            if (String.IsNullOrEmpty(value))
+                return value;
 
-            byte[] result = Encrypt(data, _provider.ExportParameters(false), false);
+            byte[] data = _encoding.GetBytes(value);
 
-            return encoding.GetString(result);
+            byte[] result = Encrypt(data, false);
+
+            return _encoding.GetString(result);
         }
 
-        public byte[] Encrypt(byte[] value, RSAParameters rsaInfo, bool isOAEP)
+        public byte[] Encrypt(byte[] value, bool isOAEP)
         {
-            try
-            {
-                byte[] encryptedData = null;
+            byte[] encryptedData = _provider.Encrypt(value, isOAEP);
 
-                using (RSACryptoServiceProvider RSA = new RSACryptoServiceProvider())
-                {
-                    RSA.ImportParameters(rsaInfo);
-
-                    encryptedData = RSA.Encrypt(value, isOAEP);
-                }
-                return encryptedData;
-            }
-            catch (CryptographicException e)
-            {
-                Console.WriteLine(e.Message);
-
-                return null;
-            }
+            return encryptedData;
         }
 
-        public byte[] Decrypt(byte[] value, RSAParameters rsaInfo, bool isOAEP)
+        public byte[] Decrypt(byte[] value, bool isOAEP)
         {
-            try
-            {
-                byte[] decryptedData;
-  
-                using (RSACryptoServiceProvider RSA = new RSACryptoServiceProvider())
-                {
-                    RSA.ImportParameters(rsaInfo);
+            byte[] decryptedData = _provider.Decrypt(value, isOAEP);
 
-                    decryptedData = RSA.Decrypt(value, isOAEP);
-                }
-                return decryptedData;
-            }
-            catch (CryptographicException e)
-            {
-                Console.WriteLine(e.ToString());
-
-                return null;
-            }
+            return decryptedData;
         }
 
         public string Decrypt(string value)
         {
-            UnicodeEncoding encoding = new UnicodeEncoding();
-            byte[] data = encoding.GetBytes(value);
+            byte[] data = _encoding.GetBytes(value);
 
-            byte[] result = Decrypt(data, _provider.ExportParameters(true), false);
+            byte[] result = Decrypt(data, false);
 
-            return encoding.GetString(result);
+            return _encoding.GetString(result);
         }
     }
 }

@@ -26,6 +26,7 @@
         <member name="T:Utils.Security.CryptService">
             <summary>
             Service for Symmetric encryption / decryption
+            Various Algorithms can be selected
             </summary>
         </member>
         <member name="M:Utils.Security.CryptService.Encrypt``1(System.String,System.String,System.String)">
