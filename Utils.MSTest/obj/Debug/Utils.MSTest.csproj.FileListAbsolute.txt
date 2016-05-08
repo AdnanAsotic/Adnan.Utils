@@ -1,0 +1,8 @@
+D:\dev\Projects\Adnan.Utils\Utils.MSTest\bin\Debug\Utils.MSTest.dll
+D:\dev\Projects\Adnan.Utils\Utils.MSTest\bin\Debug\Utils.MSTest.pdb
+D:\dev\Projects\Adnan.Utils\Utils.MSTest\bin\Debug\Utils.dll
+D:\dev\Projects\Adnan.Utils\Utils.MSTest\bin\Debug\Utils.pdb
+D:\dev\Projects\Adnan.Utils\Utils.MSTest\obj\Debug\Utils.MSTest.csprojResolveAssemblyReference.cache
+D:\dev\Projects\Adnan.Utils\Utils.MSTest\obj\Debug\Utils.MSTest.dll
+D:\dev\Projects\Adnan.Utils\Utils.MSTest\obj\Debug\Utils.MSTest.pdb
+D:\dev\Projects\Adnan.Utils\Utils.MSTest\bin\Debug\Utils.xml

@@ -1,0 +1,5 @@
+D:\dev\Projects\Adnan.Utils\Utils\bin\Debug\Utils.dll
+D:\dev\Projects\Adnan.Utils\Utils\bin\Debug\Utils.pdb
+D:\dev\Projects\Adnan.Utils\Utils\obj\Debug\Utils.dll
+D:\dev\Projects\Adnan.Utils\Utils\obj\Debug\Utils.pdb
+D:\dev\Projects\Adnan.Utils\Utils\bin\Debug\Utils.XML

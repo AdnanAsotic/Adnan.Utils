@@ -1,0 +1,11 @@
+D:\dev\Projects\Adnan.Utils\Utils.Specs\bin\Debug\Utils.Specs.dll
+D:\dev\Projects\Adnan.Utils\Utils.Specs\bin\Debug\Utils.Specs.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Specs\bin\Debug\Machine.Specifications.Clr4.dll
+D:\dev\Projects\Adnan.Utils\Utils.Specs\bin\Debug\Machine.Specifications.dll
+D:\dev\Projects\Adnan.Utils\Utils.Specs\bin\Debug\Machine.Specifications.Should.dll
+D:\dev\Projects\Adnan.Utils\Utils.Specs\bin\Debug\Utils.dll
+D:\dev\Projects\Adnan.Utils\Utils.Specs\bin\Debug\Utils.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Specs\obj\Debug\Utils.Specs.csprojResolveAssemblyReference.cache
+D:\dev\Projects\Adnan.Utils\Utils.Specs\obj\Debug\Utils.Specs.dll
+D:\dev\Projects\Adnan.Utils\Utils.Specs\obj\Debug\Utils.Specs.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Specs\bin\Debug\Utils.xml

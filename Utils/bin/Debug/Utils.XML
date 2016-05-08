@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Utils</name>
+    </assembly>
+    <members>
+        <member name="T:Utils.Collections.EnumerableProviders">
+            <summary>
+            Various extension methods for Enumerable type
+            </summary>
+        </member>
+        <member name="M:Utils.Collections.EnumerableProviders.IsContainedIn``1(System.Collections.Generic.IEnumerable{``0},``0)">
+            <summary>
+            Checks if specific value is contained in some collection
+            </summary>
+            <typeparam name="T">Type of collection to check</typeparam>
+            <param name="col">The collection to check in</param>
+            <param name="val">The value to search for</param>
+            <returns>true when found else false</returns>
+        </member>
+        <member name="T:Utils.Collections.NamespaceDoc">
+            <summary>
+            Classes to work with collections
+            </summary>
+        </member>
+        <member name="T:Utils.Security.CryptService">
+            <summary>
+            Service for Symmetric encryption / decryption
+            </summary>
+        </member>
+        <member name="M:Utils.Security.CryptService.Encrypt``1(System.String,System.String,System.String)">
+            <summary>
+            Encrypts value with specified symmetric algorithm.
+            </summary>
+            <example>
+            <code>
+            CryptService cs = new CryptService();
+            string result = cs.Encrypt&lt;AesManaged&gt;("policija", "pass", "salt");
+            </code>
+            </example>
+            <typeparam name="T">Type of Algorithm: AesManaged, Rijndael</typeparam>
+            <param name="value">Value to encrypt</param>
+            <param name="password">Password to use for encryption</param>
+            <param name="salt">Salt to use for encryption</param>
+            <returns>Base64 encrypted result</returns>
+        </member>
+        <member name="M:Utils.Security.CryptService.Decrypt``1(System.String,System.String,System.String)">
+            <summary>
+            Decrypts value with specified algorithm.
+            </summary>
+            <typeparam name="T">Type of Algorithm: AesManaged, Rijndael</typeparam>
+            <param name="value">Value to encrypt</param>
+            <param name="password">Password to use for encryption</param>
+            <param name="salt">Salt to use for encryption</param>
+            <returns>Base64 encrypted result</returns>
+        </member>
+    </members>
+</doc>
