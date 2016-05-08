@@ -10,6 +10,7 @@ namespace Utils.Security
 {
     /// <summary>
     /// Service for Symmetric encryption / decryption
+    /// Various Algorithms can be selected
     /// </summary>
     public class CryptService
     {
