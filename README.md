@@ -1,1 +1,1 @@
-"# Adnan.Utils" 
+Collection of utility functionality
