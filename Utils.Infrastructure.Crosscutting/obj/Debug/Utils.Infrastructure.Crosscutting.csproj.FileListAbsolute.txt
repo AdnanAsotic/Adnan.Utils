@@ -1,0 +1,5 @@
+D:\dev\Projects\Adnan.Utils\Utils.Infrastructure.Crosscutting\bin\Debug\Utils.Infrastructure.Crosscutting.dll.config
+D:\dev\Projects\Adnan.Utils\Utils.Infrastructure.Crosscutting\bin\Debug\Utils.Infrastructure.Crosscutting.dll
+D:\dev\Projects\Adnan.Utils\Utils.Infrastructure.Crosscutting\bin\Debug\Utils.Infrastructure.Crosscutting.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Infrastructure.Crosscutting\obj\Debug\Utils.Infrastructure.Crosscutting.dll
+D:\dev\Projects\Adnan.Utils\Utils.Infrastructure.Crosscutting\obj\Debug\Utils.Infrastructure.Crosscutting.pdb

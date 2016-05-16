@@ -1,0 +1,16 @@
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\obj\Debug\Utils.Data.Seedwork.csprojResolveAssemblyReference.cache
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\obj\Debug\Utils.Data.Seedwork.Resources.Messages.resources
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\obj\Debug\Utils.Data.Seedwork.csproj.GenerateResource.Cache
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\Utils.Data.Seedwork.dll.config
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\Utils.Data.Seedwork.dll
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\Utils.Data.Seedwork.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\EntityFramework.dll
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\EntityFramework.SqlServer.dll
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\Utils.Domain.Seedwork.dll
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\Utils.Infrastructure.Crosscutting.dll
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\Utils.Domain.Seedwork.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\Utils.Infrastructure.Crosscutting.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\EntityFramework.xml
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\bin\Debug\EntityFramework.SqlServer.xml
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\obj\Debug\Utils.Data.Seedwork.dll
+D:\dev\Projects\Adnan.Utils\Utils.Data.Seedwork\obj\Debug\Utils.Data.Seedwork.pdb

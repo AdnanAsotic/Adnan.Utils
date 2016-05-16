@@ -1,0 +1,7 @@
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork.MSTest\bin\Debug\Utils.Domain.Seedwork.MSTest.dll
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork.MSTest\bin\Debug\Utils.Domain.Seedwork.MSTest.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork.MSTest\bin\Debug\Utils.Domain.Seedwork.dll
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork.MSTest\bin\Debug\Utils.Domain.Seedwork.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork.MSTest\obj\Debug\Utils.Domain.Seedwork.MSTest.csprojResolveAssemblyReference.cache
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork.MSTest\obj\Debug\Utils.Domain.Seedwork.MSTest.dll
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork.MSTest\obj\Debug\Utils.Domain.Seedwork.MSTest.pdb

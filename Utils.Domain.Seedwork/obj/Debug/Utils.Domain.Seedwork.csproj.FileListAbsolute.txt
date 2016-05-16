@@ -1,0 +1,4 @@
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork\bin\Debug\Utils.Domain.Seedwork.dll
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork\bin\Debug\Utils.Domain.Seedwork.pdb
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork\obj\Debug\Utils.Domain.Seedwork.dll
+D:\dev\Projects\Adnan.Utils\Utils.Domain.Seedwork\obj\Debug\Utils.Domain.Seedwork.pdb
