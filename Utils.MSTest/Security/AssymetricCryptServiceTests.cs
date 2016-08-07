@@ -34,15 +34,22 @@ namespace Utils.MSTest.Security
         }
 
         [TestMethod]
+        public void test_should_return_rsa_keys()
+        {
+            string xml = _cs.GetKeys(false);
+        }
+
+        [TestMethod]
         public void test_should_encrypt_and_decrypt_value_with_assymetric_algorithm()
         {
-            string input = "adnan.asotic";
+            string input = "adnan";
 
             string encrypted = _cs.Encrypt(input);
-            //string decrypted = _cs.Decrypt(encrypted);
+            string decrypted = _cs.Decrypt(encrypted);
 
-            //Assert.IsTrue(encrypted.Equals(decrypted));
+            Assert.IsTrue(input.Equals(decrypted));
         }
+
 
     }
 }

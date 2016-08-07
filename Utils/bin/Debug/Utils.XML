@@ -23,6 +23,27 @@
             Classes to work with collections
             </summary>
         </member>
+        <member name="M:Utils.Security.AssymetricCryptService.Encrypt(System.String)">
+            <summary>
+            Encrypts a string
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Utils.Security.AssymetricCryptService.Encrypt(System.Byte[],System.Boolean)">
+            <summary>
+            Encrypts Base64 bytes
+            </summary>
+        </member>
+        <member name="M:Utils.Security.AssymetricCryptService.Decrypt(System.Byte[],System.Boolean)">
+            <summary>
+            Decrypts Base64 bytes
+            </summary>
+        </member>
+        <member name="M:Utils.Security.AssymetricCryptService.Decrypt(System.String)">
+            <summary>
+            Decrypts string
+            </summary>
+        </member>
         <member name="T:Utils.Security.CryptService">
             <summary>
             Service for Symmetric encryption / decryption
