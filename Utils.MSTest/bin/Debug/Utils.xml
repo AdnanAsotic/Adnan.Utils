@@ -23,6 +23,36 @@
             Classes to work with collections
             </summary>
         </member>
+        <member name="M:Utils.Files.FileSearcher.FindFiles(System.String,System.String)">
+            <summary>
+            Find files by path
+            </summary>
+        </member>
+        <member name="T:Utils.Files.FileService">
+            <summary>
+            Service for file operations
+            </summary>
+        </member>
+        <member name="M:Utils.Files.FileService.CreateFile(System.String,System.String)">
+            <summary>
+            Create file on path
+            </summary>
+        </member>
+        <member name="M:Utils.Files.FileService.DeleteFile(System.String)">
+            <summary>
+            Delete file on path
+            </summary>
+        </member>
+        <member name="T:Utils.Security.AssymetricCryptService">
+            <summary>
+            Service for Assymetric Crypt Operations
+            </summary>
+        </member>
+        <member name="M:Utils.Security.AssymetricCryptService.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
         <member name="M:Utils.Security.AssymetricCryptService.Encrypt(System.String)">
             <summary>
             Encrypts a string
@@ -42,6 +72,11 @@
         <member name="M:Utils.Security.AssymetricCryptService.Decrypt(System.String)">
             <summary>
             Decrypts string
+            </summary>
+        </member>
+        <member name="M:Utils.Security.AssymetricCryptService.GetKeys(System.Boolean)">
+            <summary>
+            Get-Keys
             </summary>
         </member>
         <member name="T:Utils.Security.CryptService">

@@ -30,6 +30,16 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,10 +53,17 @@
   <ItemGroup>
     <Compile Include="Collections\EnumerableProviders.cs" />
     <Compile Include="Collections\NamespaceDoc.cs" />
+    <Compile Include="Files\FileSearcher.cs" />
     <Compile Include="Files\FileService.cs" />
+    <Compile Include="Files\XFile.cs" />
+    <Compile Include="LinqExtensions\CharExtensions.cs" />
+    <Compile Include="LinqExtensions\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security\AssymetricCryptService.cs" />
     <Compile Include="Security\CryptService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Parsing\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

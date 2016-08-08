@@ -14,7 +14,7 @@ namespace Utils.MSTest.Security
         AssymetricCryptService _cs = new AssymetricCryptService();
 
         [TestMethod]
-        public void test_should_return_input_when_empty_or_null()
+        public void encrypting_null_should_return_null()
         {
             string input = null;
 
@@ -24,7 +24,7 @@ namespace Utils.MSTest.Security
         }
 
         [TestMethod]
-        public void test_should_encrypt_value_with_assymetric_algorithm()
+        public void encrypting_value_should_return_different_value()
         {
             string input = "adnan.asotic";
 
@@ -34,13 +34,7 @@ namespace Utils.MSTest.Security
         }
 
         [TestMethod]
-        public void test_should_return_rsa_keys()
-        {
-            string xml = _cs.GetKeys(false);
-        }
-
-        [TestMethod]
-        public void test_should_encrypt_and_decrypt_value_with_assymetric_algorithm()
+        public void decrypting_should_return_encrypted_value()
         {
             string input = "adnan";
 
